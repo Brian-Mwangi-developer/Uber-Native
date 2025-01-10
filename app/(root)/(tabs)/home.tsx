@@ -137,8 +137,6 @@ export default function Page() {
         longitude:location.coords?.longitude!
       });
 
-      console.log("Address",address[0])
-      console.log("Location",location)
       setUserLocation({
         latitude:location.coords?.latitude!,
         longitude:location.coords?.longitude!,
